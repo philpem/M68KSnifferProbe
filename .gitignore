@@ -1,0 +1,26 @@
+# Backups and temp files
+*.000
+*.bak
+*.bck
+*.kicad_pcb-bak
+*~
+_autosave-*
+*.tmp
+*-rescue.lib
+*-save.pro
+*-save.kicad_pcb
+
+# Netlist files (exported from Eeschema)
+*.net
+
+# Specctra session/design (Freerouter autorouter)
+*.ses
+*.dsn
+
+# Gerber files
+gerber
+*_gerber.zip
+
+# Exported BOM files
+*.xml
+*.csv
